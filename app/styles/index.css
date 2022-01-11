@@ -1,0 +1,134 @@
+body {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dictionaryForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dictionaryForm div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    background: #10CA00;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.upload {
+    width: 150px;
+    font-size: 24px;
+    height: 50px;
+    color: white;
+    border: none;
+    background: #968996;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dictionaryLabel {
+    margin-top: 50px;
+}
+
+.dictionaryLabel h2 {
+    margin: 0 0 10px 0;
+}
+
+.dictionaryLabel h2 span {
+    color: red;
+}
+
+.word {
+    background: #FFE3AF;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.variables {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.choice {
+    font-size: 18px;
+    border: 2px solid #10CA00;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: none;
+    padding: 10px 24px;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+
+.notice {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C4FCEF;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.notice p {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+}
+
+.notice span {
+    font-size: 24px;
+    color: #505050;
+}
+
+.notice button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    background: #BBD4CE;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.notice button:hover {
+    background: #86D9C5;
+}
